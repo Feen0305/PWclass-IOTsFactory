@@ -9,8 +9,17 @@ This project demonstrates various IoT applications using the **ESP32** microcont
 - **Hardware:** ESP32  
 - **Software:** ThingSpeak, WokWi, TinkerCAD  
 
+#### Tools Used  
+Below are the logos of the primary tools utilized in this project:  
+
+| ThingSpeak | WokWi | TinkerCAD |
+|------------|-------|-----------|
+| ![ThingSpeak Logo](https://www.iqhome.org/image/cache/catalog/post/thingspeak-1200x750.png) | ![WokWi Logo](https://avatars.githubusercontent.com/u/56967200?s=280&v=4) | ![TinkerCAD Logo](https://inside.wooster.edu/technology/wp-content/uploads/sites/83/2018/09/logo-tinkercad-256.png) |
+
+*(Replace the image URLs with actual links to the logos.)*  
+
 Below is an image of the ESP32 module used in this project along with its I/O layout:  
-`![ESP32 I/O Layout](port.png)`  
+![ESP32 I/O Layout](port.png)
 
 ## Assignments and Labs  
 
