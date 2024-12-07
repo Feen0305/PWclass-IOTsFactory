@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Feen Phoorin",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -24.1, "left": 52.6, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 102.2,
+      "left": -134.4,
+      "attrs": { "color": "grey" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 128.75,
+      "left": -19.2,
+      "attrs": { "value": "10000" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:VIN", "r1:2", "red", [ "h0" ] ],
+    [ "r1:1", "btn1:2.r", "green", [ "v0" ] ],
+    [ "esp:GND.2", "btn1:1.r", "black", [ "h-105.6", "v-9.7" ] ],
+    [ "esp:D12", "r1:1", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
