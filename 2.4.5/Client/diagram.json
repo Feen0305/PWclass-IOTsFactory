@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "author": "Feen Phoorin",
+  "editor": "wokwi",
+  "parts": [ { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 148.7, "left": 254.2, "attrs": {} } ],
+  "connections": [ [ "esp:TX0", "$serialMonitor:RX", "", [] ], [ "esp:RX0", "$serialMonitor:TX", "", [] ] ],
+  "dependencies": {}
+}
